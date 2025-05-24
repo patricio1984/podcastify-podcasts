@@ -37,8 +37,8 @@ Una aplicación moderna de podcasts hecha con React, TypeScript y Vite que te pe
 1. Cloná el repositorio:
 
 ```bash
-git clone https://github.com/tuusuario/longevo-podcasts.git
-cd longevo-podcasts
+git clone https://github.com/tuusuario/longevo-podcast-ejercicio.git
+cd longevo-podcasts-ejercicio
 ```
 
 2. Instalá las dependencias:
