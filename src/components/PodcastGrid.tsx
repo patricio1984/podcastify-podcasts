@@ -17,7 +17,7 @@ export default function PodcastGrid({
   return (
     <section
       aria-label="Listado de podcasts"
-      className="max-w-[1180px] mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-0 md:gap-8"
+      className="max-w-[1180px] mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-0 md:gap-8 py-4 md:py-8"
     >
       {podcasts.map((podcast, index) => (
         <PodcastCard

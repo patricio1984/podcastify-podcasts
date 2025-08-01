@@ -92,9 +92,7 @@ function App() {
                   {activeTab === "trending" && (
                     <>
                       {isFetchingNextPage && (
-                        <p className="text-center text-gray-500 pt-15">
-                          Cargando más...
-                        </p>
+                        <PodcastSkeletonGrid count={8} />
                       )}
                       <div ref={loadMoreRef} className="py-10 text-center" />
                     </>

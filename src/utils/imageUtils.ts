@@ -1,8 +1,8 @@
-import FaviconSvg from "/favicon.svg";
+import FaviconPng from "/favicon.png";
 
 export const getSecureImageUrl = (
   originalImageUrl: string | undefined,
-  fallbackImage: string = FaviconSvg
+  fallbackImage: string = FaviconPng
 ): string => {
   if (!originalImageUrl) return fallbackImage;
 

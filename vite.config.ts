@@ -10,7 +10,7 @@ export default defineConfig({
     VitePWA({
       registerType: "autoUpdate",
       manifest: {
-        name: "Longevo Podcasts",
+        name: "Podcastify",
         short_name: "Podcasts",
         description: "Descubrí y escuchá tus podcasts favoritos",
         theme_color: "#0F0F2D",
@@ -18,14 +18,6 @@ export default defineConfig({
         display: "standalone",
         orientation: "portrait",
         start_url: "/",
-        icons: [
-          {
-            src: "/favicon.svg",
-            sizes: "512x512",
-            type: "image/svg+xml",
-            purpose: "any maskable",
-          },
-        ],
       },
       workbox: {
         globPatterns: ["**/*.{js,css,html,ico,png,svg,jpg}"],

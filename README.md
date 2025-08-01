@@ -1,6 +1,8 @@
-# Longevo Podcasts
+# Podcastify
 
 Una aplicación moderna de podcasts hecha con React, TypeScript y Vite que te permite descubrir, escuchar y guardar tus podcasts favoritos.
+
+> 💡 Este proyecto fue originalmente desarrollado como parte de un desafío técnico. Luego lo adapté y mejoré por mi cuenta con una API propia, agregando mejoras en UI, estructura de carpetas y experiencia de usuario.
 
 ## 🚀 Características
 
@@ -37,8 +39,8 @@ Una aplicación moderna de podcasts hecha con React, TypeScript y Vite que te pe
 1. Cloná el repositorio:
 
 ```bash
-git clone https://github.com/tuusuario/longevo-podcast-ejercicio.git
-cd longevo-podcasts-ejercicio
+git clone https://github.com/patricio1984/podcastify-podcasts.git
+cd podcastify-podcasts
 ```
 
 2. Instalá las dependencias:

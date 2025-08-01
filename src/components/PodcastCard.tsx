@@ -80,7 +80,7 @@ export default function PodcastCard({
           e.stopPropagation();
           toggleFavorite(String(podcast.id));
         }}
-        className="absolute top-2 right-2 md:top-3 md:right-3 z-10 text-white hover:text-brand transition cursor-pointer"
+        className="hidden md:block absolute top-2 right-2 md:top-3 md:right-3 z-10 text-yellow-400 hover:text-yellow-500 transition cursor-pointer"
       >
         {podcast.isFavorite ? (
           <StarIcon className="h-6 w-6 md:h-7 md:w-7" />

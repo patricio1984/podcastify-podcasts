@@ -1,7 +1,11 @@
 import useMediaQuery from "../../hooks/useMediaQuery";
 
-export default function PodcastGridSkeleton() {
-  const skeletons = Array.from({ length: 12 });
+interface PodcastGridSkeletonProps {
+  count?: number;
+}
+
+export default function PodcastGridSkeleton({ count = 12 }: PodcastGridSkeletonProps) {
+  const skeletons = Array.from({ length: count });
   const isMobile = useMediaQuery("(max-width: 767px)");
 
   return (
@@ -42,3 +46,4 @@ export default function PodcastGridSkeleton() {
     </section>
   );
 }
+
